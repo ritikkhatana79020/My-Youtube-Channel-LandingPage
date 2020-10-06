@@ -1,0 +1,301 @@
+<html>
+
+<head>
+  <title>Coding Freaks</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<style type="text/css">
+  html{
+  font-family: monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 50px;
+}
+
+/* Navbar */
+
+nav {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  color: white;
+  width: 100%;
+  height: 50px;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav img {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #00B0B9;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav ul li a:hover {
+  color: #82CAFA;
+}
+
+/* funnel */
+
+#funnelcont {
+  background-color: #00B0B9;  
+}
+
+#funnel {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: auto;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+#funnel h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.area {
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  max-width: 48%;
+}
+
+img {
+  max-width: 80%;
+  max-height: 500px;
+  display: block;
+  margin: -40px auto -40px auto;
+  text-align: center;
+}
+
+/* Email */
+
+#email {
+  width: 50%;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Pricing Boxes */
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.box {
+  border: 2px solid #008000;
+  margin: auto;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.pricingheader {
+  font-size: 24px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #008000;
+  color: white;
+}
+
+.price {
+  font-size: 48px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bolder; 
+  background-color: white;
+}
+
+/* Buttons */
+
+.button {
+  font-size: 20px;
+  background-color: #008000;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 12px;
+  margin: 10px auto 10px auto;
+} 
+
+#submit {
+  font-size: 20px;
+  background-color: #F2385A;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 12px;
+  margin: 10px auto 10px auto;
+} 
+
+/* Main text */
+
+#maintext {
+  font-size: 20px;
+  max-width: 80%;
+  margin: auto;
+}
+
+#maintext h1 {
+  text-align: center;
+  margin: 0;
+}
+
+/* Video */
+
+#vidcont {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+
+}
+
+/* Footer */ 
+
+footer {
+  font-size: 20px;
+  background-color: #00B0B9;
+  color: blue;
+  width: 100%;
+  height: 50px;
+}
+
+footer ul {
+  list-style: none;
+  float: right;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+footer a {
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+/* Media query */
+
+@media (max-width: 500px) {
+  #maintext {
+    font-size: 18px;
+  }
+}
+
+
+</style>
+
+<body>
+
+<header id="header">
+  <nav id="nav-bar">
+    <a href="#"></a>
+    <ul>
+      <li>
+        <a href="#funnelcont" class="nav-link">Home</a>
+        <a href="#maintext" class="nav-link">About</a>
+        <a href="#pricing" class="nav-link">Courses</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <div id="funnelcont">
+    <div id="funnel">
+      <h1 style="font-size: 50px;">Coding Freaks</h1>
+      <h2>Enter your email address below to get Notifications</h2>
+      <form id="form">
+        <input type="email" name="email" id="email" class="rightcol" placeholder="abc@gmail.com" required>
+        <input type="submit" id="submit" class="button" value="Click Me!!"></input> 
+      </form>
+      <img src="logo.png" alt="Logo image" id="header-img">
+    </div>
+  </div>  
+
+  <div id="maintext">
+    <p>
+      Coding Freaks was founded just recently in 2020. We are here to bridge the gap between the quality of skills demanded by industry and the quality of skills imparted by conventional institutes. At Coding Freaks, we strive to increase student interest by providing hands on practical training on every concept taught in the classroom.<br>
+      We value our students and help them build skills that will be with them throughout their career. Extensive hands-on practice during classes helps them gain expertise in the subject. This builds their confidence and problem solving ability.<br>
+    “The secret to education lies in respecting the student” – Ralph Waldo Emerson</p>
+  </div>
+
+  <div id="vidcont">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/-I9orOeiXDA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    
+  </div>
+
+  <div class="pricing" id="pricing">
+    <div class="box" id="box1">
+      <div class="pricingheader">Competative Programming with JAVA</div>
+      <div class="price">$0</div>
+      <button type="submit" class="button">BUY NOW</button>
+    </div>
+    <div class="box" id="box2">
+      <div class="pricingheader">Web Development</div>
+      <div class="price">$0</div>
+      <button type="submit" class="button">BUY NOW</button>    
+    </div>
+    <div class="box" id="box3">
+      <div class="pricingheader">Data Structure And Algorithms</div>
+      <div class="price">$0</div>
+      <button type="submit" class="button">BUY NOW</button>
+    </div>
+  </div>
+
+
+<footer>
+  <ul>
+    <li>
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</footer>
+
+</body>
+
+</html>
